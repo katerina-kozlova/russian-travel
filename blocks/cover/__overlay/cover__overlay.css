@@ -1,0 +1,28 @@
+.cover__overlay {
+ width: calc(100vw - 96px);
+  margin: 92px auto;
+  background: #2A2C2F;
+  opacity: 0.3;
+  z-index: 1;
+  
+  }
+
+@media screen and (max-width: 1024px) {
+    .cover__overlay {
+    width: 100vw;
+    margin: 102px auto;
+        }
+  }
+    
+@media screen and (max-width: 768px) {
+    .cover__overlay {
+      margin: 90px auto 88px;
+        }
+  }
+    
+@media screen and (max-width: 320px) {
+    .cover__overlay {
+      margin: 66px auto 64px;
+        }
+  }
+  
