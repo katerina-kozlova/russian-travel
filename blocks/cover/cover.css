@@ -1,28 +1,30 @@
 .cover {
-    width: calc(100vw - 96px);
-    padding: 0;
-    margin: 92px auto;
-    display: flex;
-    position: relative;
-    text-align: center;
-    justify-content: center;
-  }
+  width: calc(100vw - 96px);
+  
+  margin: 92px auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 @media screen and (max-width: 1024px) {
-    .cover {
-      margin: 102px auto;
-      width: 100vw;
-        }
-  }
+  .cover {
+    width: calc(100vw - 14px);
+    margin: 90px auto;
+      }
+}
     
 @media screen and (max-width: 768px) {
-    .cover {
-      margin: 90px auto 88px;
-        }
-  }
-    
+  .cover {
+    width: 100vw;
+    margin: 90px 0;
+      }
+}
+
 @media screen and (max-width: 320px) {
-    .cover {
-      margin: 66px auto 64px;
-        }
-  }
+  .cover {
+    width: 100vw;
+    margin: 66px 0;
+      }
+}

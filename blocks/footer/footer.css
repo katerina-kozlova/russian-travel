@@ -1,23 +1,26 @@
 .footer {
+    width: calc(100vw - 96px);
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin: 0;
     padding: 0 48px 24px;
-    width: calc(100vw - 96px);
+    
   }
 
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 715px) {
     .footer {
+      margin: 0;
       padding: 0 24px 24px;
       width: calc(100vw - 48px);
+      flex-direction: column;
     }
   }
 
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 320px) {
     .footer {
+      margin: 0;
       padding: 0 118px 24px 16px;
-      flex-direction: column;
       width: calc(100vw - 134px);
-      height: 310px;
     }
   }
