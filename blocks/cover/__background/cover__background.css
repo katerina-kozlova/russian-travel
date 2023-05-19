@@ -19,21 +19,3 @@
 .cover__background:hover {
   opacity: 0.8;
 }
-
-@media screen and (max-width: 1024x) {
-  .cover__background {
-    
-      }
-}
-    
-@media screen and (max-width: 1024x) {
-  .cover__background {
-    
-      }
-}
-
-@media screen and (max-width: 1024x) {
-  .cover__background{
-    
-      }
-}

@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1024px) {
   .places {
-    width: calc(100vw - 96px);;
+    width: calc(100vw - 96px);
   }
 }  
   
