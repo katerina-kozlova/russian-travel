@@ -6,7 +6,7 @@
     grid-template-rows: fit-content(213px) fit-content(213px) fit-content(213px);
     gap: 16px;
     justify-content: center;
-    width: calc(100vw - 96px);
+    max-width: calc(100vw - 96px);
   }
 
 @media screen and (max-width: 1024px) {
@@ -23,7 +23,7 @@
     grid-template-columns: fit-content(352px) fit-content(352px);
     grid-template-rows: fit-content(264px) fit-content(264px) fit-content(264px) fit-content(264px) fit-content(264px) fit-content(264px);
     gap: 16px;
-    width: calc(100vw - 48px);
+    max-width: calc(100vw - 48px);
     }
   }
 
@@ -33,6 +33,6 @@
     grid-template-columns: fit-content(288px);
     grid-template-rows: repeat(12, fit-content(216px));
     gap: 12px;
-    width: calc(100vw - 32px);
+    max-width: calc(100vw - 32px);
     }
   }

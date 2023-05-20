@@ -4,12 +4,12 @@
     display: grid;
     gap: 80px;
     justify-content: center;
-    width: calc(100vw - 296px);
+    max-width: calc(100vw - 296px);
   }
 
 @media screen and (max-width: 1024px) {
   .places {
-    width: calc(100vw - 96px);
+    max-width: calc(100vw - 96px);
   }
 }  
   
@@ -17,7 +17,7 @@
   .places {
     margin: 88px auto 0;
     gap: 73px;
-    width: calc(100vw - 48px);
+    max-width: calc(100vw - 48px);
       }
 }
   
@@ -25,6 +25,6 @@
   .places {
     margin: 64px auto 0;
     gap: 50px;
-    width: 100%;
+    max-width: 100%;
       }
 }
