@@ -5,6 +5,7 @@
     gap: 80px;
     justify-content: center;
     max-width: calc(100vw - 296px);
+    max-width: 984px;
   }
 
 @media screen and (max-width: 1024px) {
@@ -26,5 +27,6 @@
     margin: 64px auto 0;
     gap: 50px;
     max-width: 100%;
+    min-width: 320px;
       }
 }
